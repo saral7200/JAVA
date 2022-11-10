@@ -17,6 +17,11 @@ public class GitTask {
 		li.add("sultan");
 		
 		System.out.println(li);
+		System.out.println("for each");
+		for (String string : li) {
+			System.out.println(string);
+		}
+		System.out.println("for");
 	for (int i = 0; i < li.size(); i++) {
 		String string = li.get(i);
 		System.out.println(string);
