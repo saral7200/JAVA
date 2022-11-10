@@ -1,11 +1,13 @@
 package org.study;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class GitTest {
 	public static void main(String[] args) {
-		List<String> li = new ArrayList<>();
+	Set<String> li = new HashSet<>();
 		li.add("saral");
 		li.add("karthi");
 		li.add("janakiraman");
@@ -22,12 +24,5 @@ public class GitTest {
 			System.out.println(string);
 		}
 		System.out.println("for");
-	for (int i = 0; i < li.size(); i++) {
-		String string = li.get(i);
-		System.out.println(string);
-	}	
-	li.remove(6);
-	System.out.println(li);
-	
 	}
 }
