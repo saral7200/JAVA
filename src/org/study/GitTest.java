@@ -23,6 +23,5 @@ public class GitTest {
 		for (String string : li) {
 			System.out.println(string);
 		}
-		System.out.println("for");
 	}
 }
