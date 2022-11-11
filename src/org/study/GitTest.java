@@ -7,6 +7,11 @@ import java.util.Set;
 
 public class GitTest {
 	public static void main(String[] args) {
+		System.out.println("s");
+		System.out.println("a");
+		System.out.println("r");
+		System.out.println("a");
+		System.out.println("l");
 	Set<String> li = new HashSet<>();
 		li.add("saral");
 		li.add("karthi");
@@ -23,10 +28,5 @@ public class GitTest {
 		for (String string : li) {
 			System.out.println(string);
 		}
-		System.out.println("s");
-		System.out.println("a");
-		System.out.println("r");
-		System.out.println("a");
-		System.out.println("l");
 	}
 }
