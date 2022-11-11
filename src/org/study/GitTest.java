@@ -23,5 +23,10 @@ public class GitTest {
 		for (String string : li) {
 			System.out.println(string);
 		}
+		System.out.println("s");
+		System.out.println("a");
+		System.out.println("r");
+		System.out.println("a");
+		System.out.println("l");
 	}
 }
